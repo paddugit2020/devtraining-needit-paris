@@ -76,6 +76,25 @@
             <sys_updated_on>2020-09-29 22:46:43</sys_updated_on>
             <value>your-choice</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_for</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Others</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-07 00:50:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76ae94cdbbf101059a47b38689619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-07 00:50:04</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_request_for</element>
             <name>x_58872_needit_needit</name>

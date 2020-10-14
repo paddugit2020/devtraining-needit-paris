@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the Requested for to the currently logged in user for new records. Users can change the field value</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt Set Requested for NeeRec</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   
+	
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-01 23:15:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1bf2a3d2db6f101059a47b38689619d7</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>NeedIt Set Requested for NeeRec</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_1bf2a3d2db6f101059a47b38689619d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-07 23:44:28</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>51907e44dbf7d3441ddcf22ebf96190a</instance_id>
+        <instance_name>dev68717</instance_name>
+        <name>sys_script_client_1bf2a3d2db6f101059a47b38689619d7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Set the Requested for to the currently logged in user for new records. Users can change the field value&lt;/description&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;NeedIt Set Requested for NeeRec&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   
+	
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-01 23:15:54&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1bf2a3d2db6f101059a47b38689619d7&lt;/sys_id&gt;&lt;sys_mod_count&gt;23&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedIt Set Requested for NeeRec&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_1bf2a3d2db6f101059a47b38689619d7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-07 23:44:28&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1097904680</payload_hash>
+        <record_name>NeedIt Set Requested for NeeRec</record_name>
+        <reverted_from/>
+        <source>27d2e52ddb27101059a47b3868961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-07 23:44:28</sys_created_on>
+        <sys_id>90052ad0dbfb501059a47b3868961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1750573ac5d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-07 23:44:28</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>d8052ad098fb5010ae63de6f585a4250</update_guid>
+        <update_guid_history>d8052ad098fb5010ae63de6f585a4250:1097904680,d8806a1080fb501000745aa01a4d9955:1248574119,8a0f1adccabb50101f628cfc7cb6e897:167108648,9e9e16dc94bb50106d2ec5f60a7b3cd2:629910915,fb1e525c79bb5010671ccef27ac6567c:-812302623,e32d165c2dbb501010b25fba7093c30f:-829354423,ed2c161cd0bb501000333d7b010a2e29:1084817368,dba9d2d87fbb50104cb67e50ae03ead5:-681741495,0b585a989bbb50101285a81ea4b2000c:-1762790152,2507d2985ebb5010d7c06d02f71512e1:1135155129,6919364c55735010a88a7e46319672b1:1042018483,d3b7f24c8f735010253469dd26071b3c:1204778056,7cb5b24cef7350102fa8b56cef85ca86:1742141765,1b95f60c7e73501012134b93bd0831a0:-1579479229,2be4320c8a7350102e40f3a3ffaf5276:-1681681993,7694f6c8b1735010ac9c773e533220d4:584171399,b7233e88dc7350103a5bf95babc0c780:1869380387,a5bf2ec42d735010b85cacbcc388b8b5:1964453333,244dae4433735010226b7d1dafb4a928:-703576075,7e5c6b5a046f1010f051da783265168c:-143417255,94cbaf1a956f10104c1964490fd1cebc:-2104295816,19b623d6e36f1010ce2fbb9a050c5592:373439513,8a062f561c6f10105f16351accb7f9d5:-1185566836,e7e42f566d6f1010f3a76d4c94adf7cd:-749579116</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 00:10:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>080a01f503e449ae8901e92e34662b64</sys_id>
+        <sys_metadata>1bf2a3d2db6f101059a47b38689619d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Set Requested for NeeRec</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">45b4e9addb27101059a47b386896193b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_1bf2a3d2db6f101059a47b38689619d7</sys_update_name>
+        <sys_update_version display_value="sys_script_client_1bf2a3d2db6f101059a47b38689619d7">90052ad0dbfb501059a47b3868961951</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 00:10:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
